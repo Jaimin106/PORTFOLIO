@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(10, 8, 8));
+}
+
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav h1{
+    color: aliceblue;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: style none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: lightskyblue;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: rgb(248, 248, 248);
+    margin-bottom: 20px;
+}
+
+.detail p{
+    color: rgb(255, 226, 226);
+    line-height: 22px;
+}
+
+.shape{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    margin-left: 70px;
+}
+
+.image{
+    width: 52%;
+    height: 92%;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    margin-bottom: 0px;
+}
+
+.project1 h1{
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    margin-top: 30px;
+    margin-left: 350px;
+    text-decoration: silver;
+}
+
+.project1 p{
+    color: rgb(180, 178, 178);
+    margin-left: 600px;
+    font-size: large;
+    margin-top: 30px;
+}
+
+.project1 img{
+    margin-left: 210px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
